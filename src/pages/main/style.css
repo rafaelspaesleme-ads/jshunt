@@ -1,0 +1,90 @@
+.product-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+
+.product-box {
+    background: #1a1a1a;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.product-box a {
+    border-radius: 2px;
+    padding: 5px;
+    color: #777777;
+    font-size: 12px;
+    text-decoration:none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.product-box a:focus {
+    background: #3e3d41;
+    color: #777777;
+}
+
+
+.product-box a:hover {
+    background: #3e3d41;
+    color: #777777;
+}
+
+.product-box a:active {
+    background: #ffffff;
+    color: #272323;
+}
+
+.product-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-header {
+    margin: 15px;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #3e3d41;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-list .actions button {
+    background: #1a1a1a;
+    border: 1px solid #3e3d41;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.product-list .actions button:hover {
+    background: #777777;
+    border: 1px solid #3e3d41;
+    padding: 10px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.product-list .actions button:active {
+    background: #1a1a1a;
+    border: 1px solid #3e3d41;
+    padding: 10px;
+    color: #777777;
+    cursor: pointer;
+}
